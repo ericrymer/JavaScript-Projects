@@ -27,3 +27,6 @@ document.write("<br>")//==Ads a break on the page.
 function not_Function(){
     document.getElementById("Not").innerHTML=!(5>10);//==! Not operator checks whether or not something is true.
 }
+
+document.write("<br>")//==Ads a break on the page.
+document.write(2<4);//==If the number on the left is less than the right, value will be true.
