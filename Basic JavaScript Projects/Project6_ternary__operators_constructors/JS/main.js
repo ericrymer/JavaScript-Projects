@@ -25,3 +25,9 @@ function Nested_Function(){//Defining a function and naming it
     let a = 4;// Defining a variable and giving it a value
     document.getElementById("Nested").innerHTML = a * a;//Putting the value of result into HTML element
   }
+function ternary_Function(){
+  var Food, Best_food;
+  Food = document.getElementById("Food").value;
+  Best_food = (Food == "cookie") ? "Correct! That is my favorite food!":"Sorry! Try again!";
+  document.getElementById("food").innerHTML = Best_food;
+}
